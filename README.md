@@ -62,7 +62,7 @@ ArcShape (float startAngle, float sweepAngle);
 В следующей главе мы поговорим о работе с мультимедиа, а к рисованию еще вернемся в *главе 14*, когда будем рассматривать анимацию. 
 
 
-## <img alt="img.png" height="65" src="img_1.png" width="65"/> ГЛАВА 7  
+## <img alt="img_1.png" height="65" src="img_1.png" width="65"/> ГЛАВА 7  
 
 
 # Мультимедиа
@@ -157,7 +157,7 @@ ArcShape (float startAngle, float sweepAngle);
   манипуляциях со звуком в памяти, записи звука в буфер при воспроизведении
   или в любых других случаях, не требующих наличия потока или файла. Оrдельный поток при обработке звука не создается. 
 
-## 7.2.1. Изпользуем MediaPlayer ##
+## 7.2.1. Изпользуем ___MediaPlayer___ ##
 
 Рассмотрим, как можно воспроизвести звук с помощью класса MediaPlayer. Подключается он так:
 ``` Java
@@ -212,7 +212,7 @@ mediaPlayer.setAudioStreamТype(Audioмanager.STREAМ_МUSIC);
 mediaPlayer.setOnPreparedListener(this); 
 mediaPlayer.prepareAsync(); 
 ```
-## 7.2.2. Изпользуем MediaRecorder: запись звука ##
+## 7.2.2. Изпользуем ___MediaRecorder___: запись звука ##
 
 Прежде, чем приступить к записи звука, нужно определиться с его источником
 (свойство ```MediaRecorder.AudioSource```): 
@@ -259,7 +259,7 @@ record. stop () ;
 ```Java
 import android.media.MediaRecorder;
 ```
-## 7.2.3. Изпользование AudioRecord и AudioTrack ##
+## 7.2.3. Изпользование ___AudioRecord___ и ___AudioTrack___ ##
 
 Возможностей ```MediaPlayer/Media.Recorder``` в большинстве случаев должно хватить .
 Но для манипуляции прямыми (raw) аудиоданными, полученными, например, непосредственно из микрофона, нужно использовать классы ```AudioRecord``` и ```AudioTrack```.
