@@ -62,8 +62,8 @@ ArcShape (float startAngle, float sweepAngle);
 В следующей главе мы поговорим о работе с мультимедиа, а к рисованию еще вернемся в *главе 14*, когда будем рассматривать анимацию. 
 
 
-## ГЛАВА 7 
-<img alt="img.png" height="65" src="img.png" width="65"/> 
+## <img alt="img.png" height="65" src="img.png" width="65"/>  ГЛАВА 7  
+
 
 # Мультимедиа
 ## 7.1. Форматы мультимедиа, поддерживаемые ОС Android ##
